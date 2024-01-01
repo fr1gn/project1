@@ -1,0 +1,485 @@
+/*FONTS*/
+/* inter-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Inter/inter-v13-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-200 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/Inter/inter-v13-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Inter/inter-v13-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Inter/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Inter/inter-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Inter/inter-v13-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Inter/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/Inter/inter-v13-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/Inter/inter-v13-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* readex-pro-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/ReadexPro/readex-pro-v21-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* readex-pro-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/ReadexPro/readex-pro-v21-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* readex-pro-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ReadexPro/readex-pro-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* readex-pro-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/ReadexPro/readex-pro-v21-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* readex-pro-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/ReadexPro/readex-pro-v21-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* readex-pro-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ReadexPro/readex-pro-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/*FONTS*/
+
+body {
+    width:100%;
+    margin:0;
+    height: 5000px;
+}
+/*HEADER*/
+.header {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.header_title_container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.header_solution_container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header_title {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.header_img_container {
+    display: flex;
+    gap: 30px;
+}
+/*HEADER*/
+
+/*MAIN*/
+.feature_section {
+    border-radius: 32px;
+    background: #DCE5E2;
+    width:90%;
+    align-items: center;
+    margin:0 auto;
+}
+
+.feature_container {
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+.feature_title {
+    font-family: Readex Pro;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.feature_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bought_border, .bought_border_text {
+  font-family: Inter;
+  text-align: center;
+}
+
+.bought_border {
+  border-radius: 200px;
+  border: 1px solid #000;
+  padding: 11px;
+  width:25%;
+}
+
+.bought_border_text {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.feature_line_container {
+  display: flex;
+  align-items: center;
+  gap:30px;
+  justify-content: center;
+  margin:0 auto;
+}
+
+.feature_line {
+  width: 194px;
+  height: 2px;
+  background:black;
+}
+
+.title {
+  padding-top: 2%;
+  text-align: center;
+  font-family: Readex Pro;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.caption {
+  text-align: center;
+  font-family: Readex Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*CARDS*/
+
+.card_section {
+  padding-top: 3%;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards_list {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_first_container {
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+  width:130%;
+}
+
+.card_container {
+  width:80%;
+  align-items: center;
+  margin:0 auto;
+}
+
+.card_text {
+  text-align: right;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card_title {
+  text-align: right;
+  font-family: Readex Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card_container--second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_text--second {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card_text_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--third {
+  width: 312px;
+  height: 750px;;
+}
+
+.card_container--third {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_second_container {
+  padding-left: 15%;
+  display: flex;
+  gap:40px;
+}
+
+.card_logo--third {
+  padding-top:60%;
+  padding-left:7%;
+}
+
+.card_text--third {
+  text-align: center;
+  padding-top:5%;
+}
+
+.card_title--third {
+  text-align: center;
+  padding-bottom: 30%;
+}
+
+/*items*/
+
+.items_section {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.items_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item_title {
+  font-family: Readex Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.item_text {
+  color: #4B4B4B;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.item_cost {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*items*/
+
+/*block*/
+
+.block_section {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.block_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  border-radius: 16px;
+  background: #F8F9FA;
+  width: 30%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.block_text {
+  text-align: center;
+  font-family: Readex Pro;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.block_title {
+  text-align: center;
+  font-family: Readex Pro;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.block_logo {
+  margin-top: 10px;
+}
+
+.bought--modifer {
+  align-self: center;
+}
+
+/*block*/
+
+/*idea*/
+
+.idea_section {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.idea_container {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.idea_text {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  gap:20px;
+}
+
+.container_see {
+  align-items: center;
+  text-align: center;
+  margin:0 auto;
+  justify-content: center;
+}
+
+.see_all_container {
+  display: flex;
+}
+
+.see_all {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*idea*/
+
+
+/*MAIN*/
